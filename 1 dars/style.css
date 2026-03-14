@@ -1,0 +1,184 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+.input-qulupnay {
+    appearance: none;
+    border: 2px solid purple;
+    width: 13px;
+    height: 13px;
+    border-radius: 3px;
+}
+
+.input-qulupnay::after {
+    content: " ";
+    background-image: url('./image.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: none;
+    width: 13px;
+    height: 13px;
+}
+
+.input-qulupnay:checked::after {
+    content: " ";
+    background-image: url('./image.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+}
+
+
+.olcham-radio {
+    appearance: none;
+    border: 2px solid rgb(119, 255, 0);
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.olcham-radio::after {
+    content: " ";
+    background-color: red;
+    border-radius: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: none;
+    width: 5px;
+    height: 5px;
+}
+
+.olcham-radio:checked::after {
+    content: " ";
+    background-color: red;
+    border-radius: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    width: 8px;
+    height: 8px;
+}
+
+.check {
+    font-size: 30px;
+    color: #cb02f8;
+}
+
+.input-check {
+    appearance: none;
+    border: 2px solid purple;
+    width: 20px;
+    height: 20px;
+    border-radius: 3px;
+}
+
+.input-check::after {
+    content: " ";
+    background-image: url('./images/image.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: none;
+    width: 25px;
+    height: 25px;
+}
+
+.input-check:checked::after {
+    content: " ";
+    background-color: red;
+    border-radius: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+}
+
+.ww {
+    text-decoration: none;
+    color: #cb02f8;
+}
+
+.div1 {
+    padding: 10px;
+    background-color: #cc79de42;
+    width: 413px;
+    border-radius: 10px;
+}
+
+.div2 {
+    padding: 10px;
+    background-color: #ffe96a;
+    width: 413px;
+    border-radius: 10px;
+}
+
+.checkbox-box {
+    box-shadow: 2px 2px 15px #cb02f8;
+    width: 500px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.r-check {
+    font-size: 30px;
+    color: #ca426d;
+}
+
+.s {
+    text-decoration: none;
+    color: #ca426d;
+}
+
+.div3 {
+    padding: 10px;
+    background-color: #ca426d3b;
+    width: 413px;
+    border-radius: 10px;
+}
+
+.div4 {
+    padding: 10px;
+    background-color: #ffe96a;
+    width: 413px;
+    border-radius: 10px;
+}
+
+.radio-box {
+    box-shadow: 2px 2px 15px #ca426d;
+    width: 500px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.div{
+    display: flex;
+    justify-content: space-around;
+}
